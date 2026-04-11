@@ -2,11 +2,13 @@ import logo from "../assets/logo.png"
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-20 py-8 text-white absolute w-full z-50">
+    <nav className="flex justify-between items-center pl-[15%] pr-20 py-8 text-white absolute w-full z-50">
 
-      <img src={logo} alt="logo" className="h-8" />
+      {/* LOGO */}
+      <img src={logo} alt="logo" className="h-12 w-auto" />
 
-      <ul className="flex gap-12 items-center text-sm font-medium">
+      {/* NAV LINKS */}
+      <ul className="flex gap-12 items-center text-base font-medium">
 
         <li className="relative cursor-pointer group">
           Home
