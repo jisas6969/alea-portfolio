@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BRUNSON */
+@font-face {
+  font-family: 'Brunson';
+  src: url('./assets/fonts/Brunson.otf') format('opentype');
+}
+
+/* TEXT STROKE */
+.stroke-text {
+  -webkit-text-stroke: 4px white;
+  color: transparent;
+}
+
+/* MARQUEE */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
