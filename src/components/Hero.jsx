@@ -16,7 +16,7 @@ function Hero() {
 <div className="w-[15%] bg-dark"></div>
 
 {/* PURPLE SIDE (30%) */}
-<div className="w-[40%] relative flex items-center justify-center bg-gradient-to-b from-[#6b2d4f] via-[#5a2745] via-[#3a2230] via-[#2a1c24] to-[#1f1f1f]">
+<div className="w-[40%] relative flex items-center justify-center bg-gradient-to-b from-[#6b2d4f] via-[#3a2230] to-[#1f1f1f]">
 
   {/* IMAGE CENTERED */}
   <img
@@ -63,7 +63,7 @@ function Hero() {
           </h2>
 
           {/* PARAGRAPH */}
-          <p className="text-gray-400-[60px] mb-8 text-[15px] leading-[1.7] font-mont">
+          <p className="text-gray-400 mb-8 text-[15px] leading-[1.7] font-mont">
             I design clean, impactful visuals that help brands stand out and <br /> connect with their audience.
           </p>
 

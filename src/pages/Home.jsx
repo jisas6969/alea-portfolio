@@ -1,0 +1,9 @@
+import Hero from "../components/Hero"
+import AboutSection from "../components/AboutSection"
+
+function Home() {
+return ( <main> <Hero /> <AboutSection /> </main>
+)
+}
+
+export default Home
