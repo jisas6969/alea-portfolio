@@ -1,4 +1,5 @@
 import profile from "../assets/profile.png"
+import { Link } from "react-router-dom"
 
 function Hero() {
 
@@ -68,10 +69,12 @@ function Hero() {
           </p>
 
           {/* BUTTON */}
-          <button className="bg-primary px-8 py-3 text-sm font-semibold font-mont hover:opacity-80 transition rounded-sm">
-            See my Works
-          </button>
-
+          <Link
+  to="/works"
+  className="bg-primary px-8 py-3 text-sm font-semibold font-mont hover:opacity-80 transition rounded-sm inline-block"
+>
+  See my Works
+</Link>
         </div>
 
         {/* TOP RIGHT DOT GRID */}

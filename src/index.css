@@ -41,6 +41,10 @@ display: flex;
 width: max-content;
 animation: marquee 40s linear infinite;
 }
+.outline-text {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
 
 @keyframes marquee {
 from {

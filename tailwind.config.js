@@ -10,6 +10,9 @@ export default {
         primary: "#5a2a4d",
         dark: "#1f1f1f",
       },
+      gridTemplateColumns: {
+        15: "repeat(15, minmax(0, 1fr))",
+      },
     },
   },
   plugins: [],
