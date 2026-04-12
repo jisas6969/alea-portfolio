@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Work from "./pages/Works"
 import Footer from "./components/Footer"
 import ScrollToTop from "./components/ScrollToTop"
+import ChatBot from "./components/ChatBot"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </Routes>
 
       <Footer /> {/* ✅ ADD HERE */}
+      <ChatBot />
     </>
   )
 }
