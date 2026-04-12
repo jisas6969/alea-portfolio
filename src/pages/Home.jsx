@@ -1,6 +1,7 @@
 import Hero from "../components/Hero"
 import AboutSection from "../components/AboutSection"
 import WorkSection from "../components/WorkSection"
+import ContactSection from "../components/ContactSection"
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Hero />
       <AboutSection />
       <WorkSection />
+      <ContactSection /> 
     </main>
   )
 }

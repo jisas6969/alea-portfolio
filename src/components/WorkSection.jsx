@@ -59,7 +59,7 @@ function WorkSection() {
     )
 
   return (
-    <div className="relative bg-[#1a1a1a] py-20 overflow-hidden">
+    <div className="relative bg-dark py-20 overflow-hidden">
 
       {/* 🔥 STRIPE */}
       <div className="absolute left-1/2 -translate-x-1/2 w-screen top-[55%] -translate-y-1/2 h-[40%] bg-primary/80 z-[1]"></div>

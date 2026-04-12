@@ -45,6 +45,9 @@ animation: marquee 40s linear infinite;
   -webkit-text-stroke: 1px white;
   color: transparent;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @keyframes marquee {
 from {

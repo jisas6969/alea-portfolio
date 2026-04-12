@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+    brunson: ['Brunson', 'sans-serif'],
+  },
       colors: {
         primary: "#5a2a4d",
         dark: "#1f1f1f",

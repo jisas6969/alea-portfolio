@@ -84,20 +84,12 @@ function Navbar() {
           </li>
 
           {/* CONTACT BUTTON */}
-          <li>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                `px-5 py-2.5 text-sm font-semibold rounded-sm transition ${
-                  isActive
-                    ? "bg-primary text-white"
-                    : "bg-primary text-white hover:opacity-90"
-                }`
-              }
-            >
-              Contact
-            </NavLink>
-          </li>
+          <Link
+  to="/#contact"
+  className="px-5 py-2.5 text-sm font-semibold rounded-sm bg-primary text-white hover:opacity-90 transition"
+>
+  Contact
+</Link>
 
         </ul>
 
