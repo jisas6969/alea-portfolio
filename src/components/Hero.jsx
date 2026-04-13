@@ -78,14 +78,14 @@ function Hero() {
         </div>
 
         {/* TOP RIGHT DOT GRID */}
-        <div className="absolute top-36 right-60 grid grid-cols-4 gap-4">
+        <div className="absolute top-36 right-60 grid grid-cols-4 gap-3">
   {[...Array(12)].map((_, i) => {
     const col = i % 4
 
     return (
       <div
         key={i}
-        className="w-3 h-3 rounded-full bg-white"
+        className="w-4 h-4 rounded-full bg-white"
         style={{
           opacity: 0.3 + col * 0.25, // 👉 dark → bright (left to right)
         }}
@@ -102,7 +102,7 @@ function Hero() {
     return (
       <div
         key={i}
-        className="w-2.5 h-2.5 rounded-full bg-white"
+        className="w-3 h-3 rounded-full bg-white"
         style={{
           opacity: 1 - row * 0.3, // 👉 top bright → bottom dark
         }}
@@ -112,7 +112,7 @@ function Hero() {
 </div>
 
         {/* BIG SQUARE */}
-        <div className="absolute bottom-28 right-16 w-56 h-56 border-[4px] border-[#853953]"></div>
+        <div className="absolute bottom-28 right-16 w-56 h-56 border-[5px] border-[#853953]"></div>
 
       </div>
 
@@ -123,13 +123,12 @@ function Hero() {
           <div className="track text-white text-base font-mont tracking-wide">
 
             {[...Array(10)].map((_, i) => (
-              skills.map((skill, index) => (
-                <span key={`${i}-${index}`} className="mx-10">
-                  {skill}
-                  <span className="mx-10">•</span>
-                </span>
-              ))
-            ))}
+  skills.map((skill, index) => (
+    <span key={`${i}-${index}`} className="mx-24">
+      {skill}
+    </span>
+  ))
+))}
 
           </div>
         </div>

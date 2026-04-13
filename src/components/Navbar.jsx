@@ -86,7 +86,7 @@ function Navbar() {
           {/* CONTACT BUTTON */}
           <Link
   to="/#contact"
-  className="px-5 py-2.5 text-sm font-semibold rounded-sm bg-primary text-white hover:opacity-90 transition"
+  className="px-5 py-3 text-sm font-semibold rounded-sm bg-primary text-white hover:opacity-90 transition"
 >
   Contact
 </Link>

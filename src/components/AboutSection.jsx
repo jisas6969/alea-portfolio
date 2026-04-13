@@ -14,7 +14,7 @@ bg-gradient-to-r from-[#1f1f1f] via-[#3d2135] to-[#5a2a4d]">
 
     {/* LEFT CONTENT */}
     <div className="relative z-10 max-w-none mt-10 py-10">
-        <div className="absolute -top-16 left-[480px] w-16 h-16 border-[3.5px] border-[#853953] -z-10"></div>
+        <div className="absolute -top-36 left-[480px] w-28 h-28 border-[5px] border-[#853953] -z-10"></div>
 
       <h2 className="text-4xl md:text-5xl font-brunson mb-6 leading-tight whitespace-nowrap">
   Creative Mind Behind the Designs
@@ -42,10 +42,10 @@ bg-gradient-to-r from-[#1f1f1f] via-[#3d2135] to-[#5a2a4d]">
   />
 
   {/* FRAME (NASA HARAP) */}
-  <div className="absolute top-7 left-[145px] w-[320px] md:w-[380px] h-[580px] border-[3.5px] border-[#853953] z-10"></div>
+  <div className="absolute top-8 left-[178px] w-[320px] md:w-[380px] h-[580px] border-[5px] border-[#853953] z-10"></div>
 
   {/* DOTS (TOP RIGHT - NASA HARAP) */}
-  <div className="absolute -top-2 right-16 grid grid-cols-4 gap-2 z-10">
+  <div className="absolute -top-2 right-28 grid grid-cols-4 gap-3 z-10">
   {[...Array(12)].map((_, i) => {
     const col = i % 4
 
@@ -68,14 +68,14 @@ bg-gradient-to-r from-[#1f1f1f] via-[#3d2135] to-[#5a2a4d]">
   {/* DECORATIONS */}
 
   {/* TOP LEFT DOTS */}
-  <div className="absolute top-36 left-[320px] grid grid-cols-3 gap-2">
+  <div className="absolute top-36 left-[320px] grid grid-cols-3 gap-3">
   {[...Array(12)].map((_, i) => {
     const row = Math.floor(i / 3)
 
     return (
       <div
         key={i}
-        className="w-2.5 h-2.5 bg-white rounded-full"
+        className="w-4 h-4 bg-white rounded-full"
         style={{
           opacity: 0.3 + (3 - row) * 0.2, // bottom dark → top bright
         }}
@@ -87,14 +87,14 @@ bg-gradient-to-r from-[#1f1f1f] via-[#3d2135] to-[#5a2a4d]">
   
 
   {/* BOTTOM DOTS */}
-  <div className="absolute bottom-20 right-1/2 grid grid-cols-4 gap-2">
+  <div className="absolute bottom-20 right-1/2 grid grid-cols-4 gap-3">
   {[...Array(12)].map((_, i) => {
     const row = Math.floor(i / 4)
 
     return (
       <div
         key={i}
-        className="w-2.5 h-2.5 bg-white rounded-full"
+        className="w-3 h-3 bg-white rounded-full"
         style={{
           opacity: 0.3 + (2 - row) * 0.25, // bottom dark → top bright
         }}
@@ -105,7 +105,7 @@ bg-gradient-to-r from-[#1f1f1f] via-[#3d2135] to-[#5a2a4d]">
 
   {/* SQUARES */}
 
-  <div className="absolute bottom-10 left-30 w-32 h-32 border-2 border-[#853953]"></div>
+  <div className="absolute bottom-10 left-30 w-56 h-56 border-[5px] border-[#853953]"></div>
 
 </section>
 
